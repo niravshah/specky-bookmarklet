@@ -1,0 +1,94 @@
+body {
+  padding: 20px;
+}
+
+a.specky-sourcing-button {
+    display: block;
+    cursor: pointer;
+    float: right;
+    width: 35px;
+    height: 30px;
+    margin: 0px 2px 0px 10px;
+    background: url('chrome-extension://__MSG_@@extension_id__/images/icon-38.png') no-repeat;
+}
+
+a.specky-sourcing-button.linkedin-provider {
+    margin-top: -5px;
+}
+
+#specky-drawer .rt-sidebar {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 300px;
+    height: 100%;
+    overflow-y: auto;
+    background-color: rgb(245, 248, 249);
+    border-left: 1px solid rgb(216, 227, 231);
+    box-shadow: rgba(48, 59, 60, 0.298039) 0px -5px 10px, rgba(48, 59, 60, 0.0980392) -1px 0px 0px;
+    z-index: 20000;
+    transition: right 0.4s ease-in-out;
+}
+
+#specky-drawer .rt-candidate-controller .rt-heading .rt-photo img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+
+#specky-drawer .rt-candidate-controller .rt-heading {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+#specky-drawer .rt-candidate-controller .rt-form {
+    padding: 15px;
+}
+#specky-drawer .rt-form-group {
+    margin-bottom: 15px;
+}
+
+#specky-drawer .rt-label {
+    display: block;
+    color: rgb(123, 137, 141);
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0px 0px 7px;
+    padding: 0px;
+}
+
+#specky-drawer .rt-control {
+    display: block;
+    width: 100%;
+    padding: 6px 8px;
+    font-size: 14px;
+    visibility: visible;
+    color: rgb(95, 106, 109);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(204, 209, 217);
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: none;
+}
+
+#specky-drawer a.rt-button {
+    background-color: rgb(35, 168, 245);
+    color: rgb(255, 255, 255);
+    padding: 11px 20px;
+    line-height: 1;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 400;
+}
+
+#specky-drawer .rt-candidate-controller .rt-form .rt-button {
+    margin-top: 15px;
+    width: 100%;
+}
